@@ -1,10 +1,12 @@
 Readme
 ======
 
-Required library
+Required libraries
 ----------------
-1. sodapy
-2. matplotlib
+1. sqlite3
+2. pandas
+3. sodapy
+4. matplotlib
 
 
 Usage
