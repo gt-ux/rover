@@ -9,17 +9,18 @@ Required library
 
 Usage
 -----
-> $ python myreport.py -h
-> usage: myreport.py [-h] [-rdb] [-q1] [-q2]
-> 
-> Seattle Pet Licenses API QA
-> 
-> optional arguments:
->   -h, --help  show this help message and exit
->   -rdb        refresh database
->   -q1         answer to Q1
->   -q2         answer to Q2
-
+~~~python
+ $ python myreport.py -h
+ usage: myreport.py [-h] [-rdb] [-q1] [-q2]
+ 
+ Seattle Pet Licenses API QA
+ 
+ optional arguments:
+   -h, --help  show this help message and exit
+   -rdb        refresh database
+   -q1         answer to Q1
+   -q2         answer to Q2
+~~~
 
 Note
 ----
@@ -29,7 +30,9 @@ Example
 -------
 Get the answer of Q1
 
-> $ python myreport.py -q1
-> The following zip code has the most Golden Retriever. And the total count is 224
+~~~python
+ $ python myreport.py -q1
+ The following zip code has the most Golden Retriever. And the total count is 224
 	98115
+~~~
 
